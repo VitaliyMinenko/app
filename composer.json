@@ -1,0 +1,18 @@
+{
+	"name": "vitalii/test.loc",
+	"authors": [
+		{
+			"name": "Vitalii Minenko",
+			"email": "vitaliyminenko@mail.ru"
+		}
+	],
+	"require": {
+		"symfony/yaml": "3.0.x-dev",
+		"phpdocumentor/phpdocumentor": "v2.8.5"
+	},
+	"autoload": {
+		"psr-4": {
+			"Prt\\": ""
+		}
+	}
+}

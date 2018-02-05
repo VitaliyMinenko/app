@@ -7,9 +7,6 @@
  */
 
 use Prt\app\classes\Config;
-
-
-
 ?>
 <!DOCTYPE html>
 <html lang="en">

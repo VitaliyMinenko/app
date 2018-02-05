@@ -12,4 +12,15 @@ RewriteCond %{REQUEST_FILENAME} !-l
 RewriteRule ^(.*)$ index.php?url=$1 [QSA,L]
 ```
 
-### Work with 
+### Work with application
+
+* Put into form file for parse in yml forrmat.
+* Click send. You got flash massage with answer from application which contains info about parsing.
+
+### Work with api
+*Make GET request to the url and get all info from db.
+
+``
+http://base_url.info/Api/getAll
+``
+

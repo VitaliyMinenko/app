@@ -25,7 +25,7 @@ class Router
 	{
 		$route = urldecode(parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH));
 		$routing = [
-			//  Routs for api.
+            //  Routs for app.
 			'/'           => [
 				'controller' => 'Main',
 				'action'     => 'index',
@@ -35,6 +35,7 @@ class Router
 				'action'     => 'uploadFile',
 				'method'     => 'POST',
 			],
+            //  Routs for api.
 			'/Api/getAll'  => [
 				'controller' => 'Api',
 				'action'     => 'getAll',

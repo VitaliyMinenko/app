@@ -11,9 +11,14 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-l
 RewriteRule ^(.*)$ index.php?url=$1 [QSA,L]
 ```
+###
+* After downloading application use composer install for downloading all dependence's.
 
 ### Work with application
-
+* Main page for downloading.
+``
+http://baseUrl.info/
+``
 * Put into form file for parse in yml forrmat.
 * Click send. You got flash massage with answer from application which contains info about parsing.
 
@@ -21,6 +26,8 @@ RewriteRule ^(.*)$ index.php?url=$1 [QSA,L]
 *Make GET request to the url and get all info from db.
 
 ``
-http://base_url.info/Api/getAll
+http://baseUrl.info/Api/getAll
 ``
+
+
 

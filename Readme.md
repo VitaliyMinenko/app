@@ -23,7 +23,7 @@ http://baseUrl.info/
 * Click send. You got flash massage with answer from application which contains info about parsing.
 
 ### Work with api
-*Make GET request to the url and get all info from db.
+* Make GET request to the url and get all info from db.
 
 ``
 http://baseUrl.info/Api/getAll

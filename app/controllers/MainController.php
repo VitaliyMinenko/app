@@ -26,7 +26,9 @@ class MainController extends Controller
     public function uploadFileAction()
     {
         $file = $this->file('file');
+
         if ($file['Status'] == 'Ok' && isset($file['File'])) {
+
             $url = new Url($file['File']);
             $response = $url->put();
             return $this->render('index', null, $response);
